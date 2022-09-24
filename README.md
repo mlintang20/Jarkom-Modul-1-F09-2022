@@ -101,8 +101,20 @@ Pada soal ini kami menggunakan IP dari salah satu anggota kami, di mana IP nya a
 
 Wireshark filter expression: **ip.src == 192.168.43.89**
 
-## NO 8.
+## NO. 8    
+    
+### Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
+
+Di dalam soal No. 8, kami mencoba - coba untuk menemukan sebuah pesan tersembunyi dengan cara memfilter ip source dari ip host 127.0.1.1 dengan menggunakan filter command : `ip.src_host = 127.0.1.1`. Kemudian kami melihat ternyata ada sebuah pesan tersembunyi dari ip tersebut.
+
+![Screenshot Soal 8](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%208.png)
+
+## Kendala
+
+Kendala yang kami alami adalah pertama kami mencoba memfilter port, tetapi comman filter di wireshark tidak bekerja sehingga kami mengganti dengan cara mencoba memfilter ip source.
 
 ## NO 9.
+
+### Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format #[nama_kelompok].des3 dan simpan output file dengan nama #“flag.txt”.
 
 ## NO 10.
