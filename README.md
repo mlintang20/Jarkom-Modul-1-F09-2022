@@ -48,9 +48,26 @@ Wireshark filter expression: **http.request.uri contains "detail"** <br>
 **Judul TA: Evaluasi unjuk kerja User Space Filesystem (FUSE) oleh WAHYU SUADI, Rabu 17 Maret 2021 pukul 05:13:50 WIB**
 
 ## NO 3.
+### filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
+
+untuk menampilkan paket yang menuju port  80 kita dapat menggunakan command 
+
+`tcp.dst port == 80`
+
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/650840aa-2117-4b42-ba87-dfa261ff9a32/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220924T061938Z&X-Amz-Expires=86400&X-Amz-Signature=79ad03fba2ad72b02b78c50cffa02b2b0f38e519100db2cd225ca791d1428e79&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
+
+dari gambar diatas didapatkan paket-paket yang menuju port 80.
 
 ## NO 4.
+## Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
+untuk mengcapture paket yang berasal dari port 21 kita dapat menggunakan command
+
+`tcp.srcport == 21`
+
+sehingga didapatkan hasil sebagai berikut :
+
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/74fef641-9353-4eb4-87ee-73be40fcb2b3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220924%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220924T062334Z&X-Amz-Expires=86400&X-Amz-Signature=8ec51a6702e677148640db192039780a4fc0525bbe3feb2ee034bae7bdf2e277&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 ## NO 5.
 
 ## NO 6.
