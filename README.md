@@ -46,8 +46,8 @@ Untuk mengerjakan soal 2, Open file resource terlebih dahulu pada aplikasi _Wire
 Wireshark filter expression: **http.request.uri contains "detail"** <br>
 **Judul TA: Evaluasi unjuk kerja User Space Filesystem (FUSE) oleh WAHYU SUADI, Rabu 17 Maret 2021 pukul 05:13:50 WIB**
 
-![screenshot soal 2(1)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202(1).png)
-![screenshot soal 2(2)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202(2).png)
+![screenshot soal 2(1)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202%20(1).png)
+![screenshot soal 2(2)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202%20(2).png)
 
 
 ## NO 3.
