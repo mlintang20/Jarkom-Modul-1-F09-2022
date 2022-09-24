@@ -119,6 +119,34 @@ Kendala yang kami alami adalah pertama kami mencoba memfilter port, tetapi comma
 
 ## NO 9.
 
-### Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format #[nama_kelompok].des3 dan simpan output file dengan nama #“flag.txt”.
+### Terdapat laporan adanya pertukaran file yang dilakukan oleh kedua mahasiswa dalam percakapan yang diperoleh, carilah file yang dimaksud! Untuk memudahkan laporan kepada atasan, beri nama file yang ditemukan dengan format `[nama_kelompok].des3` dan simpan output file dengan nama `“flag.txt”`.
 
+Pada soal No. 9, kami menggunakan comman filter `tcp.stream eq 29` untuk menemukan file tersebut.
+    
+![Screenshot Soal 9](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%209.png)
+   
+Setelah itu, kami ingin menyimpan file tersebut dengan nama file F09.des3 dengan cara mengganti data menjadi `Raw`, kemudian save as seperti biasa dan beri nama F09.des3.
+    
+![Screenshot Soal 9 (1)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%209%20(1).png)
+    
+Setelah file .des3 tersebut tersimpan di komputer, langkah selanjutnya adalah kami mencoba untuk mendecode file tersebut dengan OpenSSL. Kami membuka cmd lalu mengetikkan command `openssl des3 -d -salt -in F09.des3 -out flag.txt -k nakano`, nakano sendiri adalah password rahasia untuk mendecode file tersebut.
+    
+![Screenshot Soal 9 (2)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%209%20(2).png)
+    
+Setelah itu tekan enter.
+    
+![Screenshot Soal 9 (2)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%209%20(3).png)
+ 
+Maka file sudah terdecode.
+    
+## Kendala
+    
+Kami kesusahan untuk mendecode file karena masih belum mengerti cara mendecode dan menggunakan OpenSSL, sehingga saat pengerjaan hanya mampu memfilter file saja.
+    
 ## NO 10.
+
+### Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
+
+Isi dari flag yang sudah terdecode adalah sebagai berikut :
+
+![Screenshot Soal 10](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%2010.png)
