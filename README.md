@@ -108,6 +108,10 @@ Wireshark filter expression: **ip.src == 192.168.43.89**
 Di dalam soal No. 8, kami mencoba - coba untuk menemukan sebuah pesan tersembunyi dengan cara memfilter ip source dari ip host 127.0.1.1 dengan menggunakan filter command : `ip.src_host = 127.0.1.1`. Kemudian kami melihat ternyata ada sebuah pesan tersembunyi dari ip tersebut.
 
 ![Screenshot Soal 8](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%208.png)
+    
+Setelah menemukan salah satu pesan tersembunyi kemudian kami klik kanan lalu klik Follow TCP Stream. Maka akan muncul seluruh pesan tersembunyi tersebut.
+    
+![Screenshot Soal 8 (1)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%208%20(1).png)
 
 ## Kendala
 
