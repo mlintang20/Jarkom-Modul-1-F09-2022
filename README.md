@@ -34,7 +34,7 @@ Untuk mengerjakan soal 1, Open file resource terlebih dahulu pada aplikasi _Wire
 Wireshark filter expression: **http.host** <br>
 **Server: nginx/1.10.3**
 
-Screenshot bukti: [screenshot](https;//github.com/mlintang20/Jarkom-Modul-1-F09-2022/img/screenshot 1.png)
+Screenshot bukti: [screenshot](https;//github.com/mlintang20/Jarkom-Modul-1-F09-2022/img/Screenshot Soal 1.png)
 
 ## NO 2.
 
