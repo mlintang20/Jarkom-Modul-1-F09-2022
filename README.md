@@ -34,9 +34,9 @@ Untuk mengerjakan soal 1, Open file resource terlebih dahulu pada aplikasi _Wire
 Wireshark filter expression: **http.host** <br>
 **Server: nginx/1.10.3**
 
-Screenshot bukti: [screenshot](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/c03f2220a66edc14247fdc85046195d73c112f5b/img/Screenshot%20Soal%201.png)
-## NO 2.
+Screenshot bukti: ![screenshot soal 1](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%201.png)
 
+## NO. 2
 ### Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
 ### **Jawab:**
@@ -45,6 +45,10 @@ Untuk mengerjakan soal 2, Open file resource terlebih dahulu pada aplikasi _Wire
 
 Wireshark filter expression: **http.request.uri contains "detail"** <br>
 **Judul TA: Evaluasi unjuk kerja User Space Filesystem (FUSE) oleh WAHYU SUADI, Rabu 17 Maret 2021 pukul 05:13:50 WIB**
+
+![screenshot soal 2(1)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202(1).png)
+![screenshot soal 2(2)](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%202(2).png)
+
 
 ## NO 3.
 ### filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
@@ -100,6 +104,9 @@ hasil :
 Pada soal ini kami menggunakan IP dari salah satu anggota kami, di mana IP nya adalah 192.168.43.89, yang dapat dilihat melalui Taskbar --> Wi-Fi network --> Properties --> IPv4 address. Pada aplikasi _Wireshark_ dipilih Capture Filter Wi-Fi, kemudian setelah masuk, apply perintah pada Display Filter, yaitu **ip.src == 192.168.43.89**. Setelah itu, keluar filter yang menampilkan paket yang berasal dari IP tersebut. Captured packet disave menjadi sebuah file .pcapng dan dapat dilihat pada **soal/soal7.pcapng**
 
 Wireshark filter expression: **ip.src == 192.168.43.89**
+
+![screenshot soal 7](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/master/img/Screenshot%20Soal%207.png)
+
 
 ## NO. 8    
     
