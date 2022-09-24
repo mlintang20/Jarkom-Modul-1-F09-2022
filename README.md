@@ -34,8 +34,7 @@ Untuk mengerjakan soal 1, Open file resource terlebih dahulu pada aplikasi _Wire
 Wireshark filter expression: **http.host** <br>
 **Server: nginx/1.10.3**
 
-Screenshot bukti: [screenshot](https;//github.com/mlintang20/Jarkom-Modul-1-F09-2022/img/Screenshot Soal 1.png)
-
+Screenshot bukti: [screenshot](https://github.com/mlintang20/Jarkom-Modul-1-F09-2022/blob/c03f2220a66edc14247fdc85046195d73c112f5b/img/Screenshot%20Soal%201.png)
 ## NO 2.
 
 ### Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
